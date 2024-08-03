@@ -69,3 +69,51 @@ body {
     background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
     background-size: cover;
 }
+
+#about {
+    height: 45%;
+    width: 100%;
+
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about h2 {
+    width: 60%;
+    font-size: 65px;
+    line-height: 80px;
+    /* background-color: rgb(56, 135, 190); */
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+#about-part2 {
+    width: 36%;
+    height: 100%;
+    /* background-color: rgb(231, 111, 81); */
+    padding: 0 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-part2 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#icons {
+    /* background-color: red; */
+}
+
+#icons i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
