@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    /* background-color: rgb(156, 169, 134); */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+
+#nav h3 {
+    background-color: black;
+    color: white;
+    padding: 9px 24px;
+    font-size: 27px;
+    margin-left: 6px;
+    border-radius: 30px;
+}
+
+#intro {
+    height: 42%;
+    width: 100%;
+    background-color: rgb(245, 243, 239);
+    padding: 50px 60px;
+}
+
+#intro h1 {
+    font-size: 120px;
+    /* Letter spacing: Adds/Subtracts space in between the letters.*/
+    letter-spacing: -4px;
+    /* Line Height: Adds space between two line of sentences. */
+    line-height: 105px;
+}
+
+#place {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3,
+#place h4 {
+    font-size: 21px;
+    font-weight: 600px;
+}
+
+#hero-image {
+    height: 85%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
