@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     object-fit: cover;
     background-blend-mode: darken;
+    /* margin-bottom: 180px; */
 
 }
 
@@ -191,7 +192,7 @@ body {
 
 #mid-container-form form {
     /* background-color: lightgreen; */
-    width: 50%;
+    width: 36%;
     padding: 9px 36px;
     display: flex;
     align-items: center;
@@ -239,7 +240,77 @@ body {
     font-weight: 100;
 }
 
-/* #netflix-bg-img {
+#container-section02 {
+    /* background-color: lightgray; */
+    background-color: black;
     width: 100%;
-    min-height: fit-content;
-} */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 8px solid rgb(35, 35, 35);
+    margin-bottom: 200px;
+
+}
+
+#container-section02-details {
+    /* background-color: lightyellow; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+
+}
+
+#container-section02-details-heading {
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-right: 21px;
+
+}
+
+#container-section02-details-heading h1 {
+    /* background-color: lightblue; */
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3px;
+    margin-bottom: 12px;
+}
+
+#container-section02-details-heading p {
+    /* background-color: lightcoral; */
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    word-spacing: 0.3px;
+    text-wrap: balance;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px;
+}
+
+#container-section02-image {
+    width: 90%;
+
+    font-size: 12px;
+}
+
+#container-section02-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
